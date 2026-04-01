@@ -40,6 +40,7 @@ public class ReverseString {
         }
         System.out.println("Reverse of " + input + " is " + rev);
         
+        sc.close();
     }
 }
 
