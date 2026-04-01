@@ -37,6 +37,7 @@ public class ReverseNumber {
         revNum = builder.reverse();
         System.out.println("Reverse of " + temp + " is " + revNum);
 
+        sc.close();
     }    
 }
 
