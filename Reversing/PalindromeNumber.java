@@ -16,6 +16,7 @@ public class PalindromeNumber {
 
         if (num < 0) {
             System.err.println("Please provide positive number.");
+            sc.close();
             return;
         }
 
