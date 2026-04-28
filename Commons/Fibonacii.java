@@ -1,5 +1,5 @@
 /*
-Program to find Fibonacii Series
+Program to find Fibonacii Series code
 */
 
 import java.util.*;
