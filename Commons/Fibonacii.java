@@ -8,6 +8,11 @@ public class Fibonacii{
             System.out.println("Enter a number : ");
             int n = sc.nextInt();
 
+            if(n < 0){
+                IO.println("Please provide positive input.");
+                return;
+            }
+
             int first = 0;
             int second = 1;
             int sum = 0;
